@@ -2,6 +2,8 @@
 RFM analysis is a common tool used among the sector to segment their donors.
 RFM allows fundraisers to target specific clusters of donors with communications that are much more relevant for their particular behavior – and thus generate much higher rates of response, plus increased loyalty and donor lifetime value. Like other segmentation methods, an RFM model is a powerful way to identify groups of donors for special treatment.
 
+In this assignment, you will be building a function to compute RFM values.
+
 ## Recency, Frequency, and Monetary
 - Recency: How much time has elapsed since a donors last donation?
 - Frequency: How often has a donor donated during a particular period of time?
@@ -20,9 +22,9 @@ RFM allows fundraisers to target specific clusters of donors with communications
 | Recency                 | Frequency                 | Monetary                       |
 |-------------------------|---------------------------|--------------------------------|
 | R-Teir-1 (most recent)  | F-Teir-1 (most frequent)  | M-Teir-1 (highest total spend) |
-| R-Teir-2   | F-Teir-1 (most frequent)  | M-Teir-1 (highest total spend) |
-| R-Teir-1 (most recent)  | F-Teir-1 (most frequent)  | M-Teir-1 (highest total spend) |
-| R-Teir-1 (least recent) | F-Teir-1 (least frequent) | M-Teir-4 (lowest total spend)  |
+| R-Teir-2                | F-Teir-2                  | M-Teir-2                       |
+| R-Teir-1 (most recent)  | F-Teir-3                  | M-Teir-3                       |
+| R-Teir-1 (least recent) | F-Teir-4 (least frequent) | M-Teir-4 (lowest total spend)  |
 
 
 This results in 64 distinct customer segments (4x4x4), into which donors will be segmented
