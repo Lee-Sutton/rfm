@@ -1,24 +1,15 @@
 from datetime import datetime
 
 DONATIONS = [
-    {"Contacts._id": "Harry", "amount": 200, "paidAt": datetime(2020, 1, 1), "status": "Active"},
-    {"Contacts._id": "Harry", "amount": 200, "paidAt": datetime(2021, 2, 1), "status": "Active"},
-    {"Contacts._id": "Ron", "amount": 200, "paidAt": datetime(2021, 1, 1), "status": "Cancelled"},
-    {"Contacts._id": "Hermione", "amount": 200, "paidAt": datetime(2020, 4, 7), "status": "Open"},
-    {"Contacts._id": "Hagrid", "amount": 200, "paidAt": datetime(2021, 8, 9), "status": "Active"},
-    {"Contacts._id": "Harry", "amount": 200, "paidAt": datetime(2020, 1, 1), "status": "Active"},
-    {"Contacts._id": "Hogwarts", "amount": 200, "paidAt": datetime(2018, 2, 1), "status": "Draft"},
-    {"Contacts._id": "Hogwarts", "amount": 200, "paidAt": datetime(2029, 6, 1), "status": "Active"},
-    {"Contacts._id": "Hogwarts", "amount": 200, "paidAt": datetime(2020, 1, 1), "status": "Cancelled"},
-]
-
-CONTACTS = [
-    {"_id": "Harry"},
-    {"_id": "Hermione"},
-    {"_id": "Ron"},
-    {"_id": "Neville"},
-    {"_id": "Hogwarts"},
-    {"_id": "Draco"},
+    {"id": 1, "donorId": "Harry", "amount": 200, "paidAt": datetime(2020, 1, 1)},
+    {"id": 2, "donorId": "Harry", "amount": 400, "paidAt": datetime(2021, 2, 1)},
+    {"id": 3, "donorId": "Ron", "amount": 20, "paidAt": datetime(2021, 1, 1)},
+    {"id": 4, "donorId": "Hermione", "amount": 200, "paidAt": datetime(2020, 4, 7)},
+    {"id": 5, "donorId": "Hagrid", "amount": 50, "paidAt": datetime(2021, 8, 9)},
+    {"id": 6, "donorId": "Harry", "amount": 25, "paidAt": datetime(2020, 1, 1)},
+    {"id": 7, "donorId": "Hogwarts", "amount": 200, "paidAt": datetime(2018, 2, 1)},
+    {"id": 8, "donorId": "Hogwarts", "amount": 200, "paidAt": datetime(2019, 6, 1)},
+    {"id": 9, "donorId": "Hogwarts", "amount": 200, "paidAt": datetime(2020, 1, 1)},
 ]
 
 
